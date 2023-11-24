@@ -1,0 +1,205 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: helvetica, sans-serif;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav {
+	display: block;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+	float: left;
+	flex: 50%;
+	width: 50%;
+	padding: 5px;
+  }
+  
+/* Clear floats after image containers */
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.row {
+	display: flex;
+}
+
+/* Image on the left container */
+.container1 {
+	display: flex;
+	align-items: left;
+	justify-content: left
+}
+
+/* Text for container1 */
+.text1 { 
+	padding-left: 20px;
+}
+
+/* Text on the left container */
+.container2 { 
+	display: flex;
+	align-items: right;
+	justify-content: right
+}
+
+/* Text for container2 */
+.text2 { 
+	padding-right: 20px;
+}
+
+/* Style images */
+img {
+	width: 100%
+}
+
+/* Style HTML body */
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0px 0px;
+  margin: 0px auto 25px auto;
+  line-height: 1 em;
+  /* light grey background color */
+  background: #d3d3d3;
+
+  /* for a background image */
+  /* background: url(index/index.media/{imagename}.png) center center fixed no-repeat;
+	background-size: cover;
+	background-position: center; */
+}
+
+/* Style main div for the content */
+.center {
+    width: 800px;
+	padding: 2%;
+    margin: 100px auto;
+ 	background: #ffffff; 
+	opacity: .65;
+	text-align: left;
+}
+
+/* Style h1 */
+h1 {
+	font-family: helvetica, sans-serif;
+	font-weight: 500;
+	font-style: bold;
+	font-size: 3.1em;
+	text-align: center;
+    line-height: 1.4;
+    color: black;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+/* Style h2 */
+h2 {
+	font-family: helvetica, sans-serif;
+	font-weight: 300;
+	font-style: italic;	
+	font-size: 2.0em;
+	text-align: left;
+    line-height: 1.6;
+    color: black;
+}
+
+/* Style paragraph */
+p {
+	font-family: helvetica, sans-serif;
+	font-weight: 200;
+	font-style: normal;	
+	font-size: 1.1em;
+	text-align: left;
+    line-height: 1.6;
+    color: black;
+}
+
+/* Style the link box (ie: on the index page) */
+nav{
+	font-family: helvetica, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 1.2em;
+    line-height: 1.2;
+    color: black;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+	border: solid black;
+	border-width: 1px 0;
+	text-align: center;
+	margin-top: 2em;
+}  
+
+/* Style the list format of the link box */
+nav li{
+	display: inline;
+
+}
+
+/* Style the links in the link box */
+nav a{
+	display: inline-block;
+	padding: 10px;
+}
+
+/* Style regular links */
+a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* Style regular links when you hover */
+a:hover{
+	color:black;
+	background: white;
+}
+  /* Top navigation bar */
+  .topnav {
+	background-color: #ededed;
+	overflow: hidden;
+  }
+  
+  /* Style the links inside the top navigation bar */
+  .topnav a {
+	float: left;
+	color: #333;
+	text-align: center;
+	font-family: helvetica, sans-serif;
+	font-size: 1.6em;
+	padding: 17px 17px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  /* Change the color of the top navigation bar items when you hover */
+  .topnav a:hover {
+	background-color: #ffffff;
+	color: black;
+  }
+  
+  /* Add a color to the active/current item in the top navigation bar */
+  .topnav a.active {
+	background-color: #dadbdc;
+	color: white;
+  }
