@@ -80,8 +80,8 @@ html, body {
   padding: 0px 0px;
   margin: 0px auto 25px auto;
   line-height: 1 em;
-  /* light grey background color */
-  background: #d3d3d3;
+  /* light grey background color now a darker green */
+  background: #00563B;
 
   /* for a background image */
   /* background: url(index/index.media/{imagename}.png) center center fixed no-repeat;
