@@ -101,7 +101,7 @@ html, body {
 
 /* Style h1 */
 h1 {
-	font-family: helvetica, sans-serif;
+	font-family: verdana, sans-serif;
 	font-weight: 500;
 	font-style: bold;
 	font-size: 3.1em;
@@ -114,7 +114,7 @@ h1 {
 
 /* Style h2 */
 h2 {
-	font-family: helvetica, sans-serif;
+	font-family: verdana, sans-serif;
 	font-weight: 300;
 	font-style: italic;	
 	font-size: 2.0em;
