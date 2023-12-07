@@ -178,6 +178,9 @@ a:hover{
   .topnav {
 	background-color: #ededed;
 	overflow: hidden;
+	border: solid black;
+	border-width: .5px;
+
   }
   
   /* Style the links inside the top navigation bar */
@@ -201,5 +204,28 @@ a:hover{
   /* Add a color to the active/current item in the top navigation bar */
   .topnav a.active {
 	background-color: #dadbdc;
-	color: rgb(25, 102, 38)3, 62, 62);
+	color: rgb(25, 102, 38);
   }
+  .text-center {
+	text-align: center;
+	color: white;
+}
+ .foot {
+	text-align: center;
+	font-family: helvetica, sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 1.0em;
+	line-height: 1.6;
+	color: white;
+}
+ .foot:hover {
+	text-align: center;
+	font-family: helvetica, sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 1.0em;
+	line-height: 1.6;
+	color: #db3434;
+	background-color: transparent;
+}
