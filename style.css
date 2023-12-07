@@ -95,16 +95,16 @@ html, body {
 	padding: 2%;
     margin: 100px auto;
  	background: #ffffff; 
-	opacity: .65;
+	opacity: .85;
 	text-align: left;
 }
 
 /* Style h1 */
 h1 {
 	font-family: verdana, sans-serif;
-	font-weight: 500;
+	font-weight: 600;
 	font-style: bold;
-	font-size: 3.1em;
+	font-size: 2.7em;
 	text-align: center;
     line-height: 1.4;
     color: black;
@@ -195,11 +195,11 @@ a:hover{
   /* Change the color of the top navigation bar items when you hover */
   .topnav a:hover {
 	background-color: #ffffff;
-	color: black;
+	color: rgb(51, 139, 180);
   }
   
   /* Add a color to the active/current item in the top navigation bar */
   .topnav a.active {
 	background-color: #dadbdc;
-	color: white;
+	color: rgb(25, 102, 38)3, 62, 62);
   }
